@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About us</title>
+
+    <style>
+         .About {
+            padding: 50px;
+            border-bottom: 1px solid #ccc;
+        }
+
+        
+        .home {
+  background: none;
+  border: none;
+  font-size: 18px;
+  position: relative;
+  padding: 5px 10px;
+  cursor: pointer;
+  color: rgb(0, 0, 0);
+}
+
+.home:after {
+  content: "";
+  position: absolute;
+  left: 50%;
+  bottom: 0;
+  width: 0%;
+  height: 2px;
+  background-color: rgb(0, 0, 0);
+  transition: all 0.3s ease-in-out;
+  transform: translateX(-50%);
+}
+.home:hover::after {
+  width: 100%;
+
+}
+
+    </style>
+</head>
+<body>
+    <header><button class="home" onclick="location.href='Hicham Massaad.html'"> Home</button></header>
+    <div class="About">
+        <h2><em><strong>About us</strong></em></h2>
+        <p> Atelier D'Architecture, we believe architecture is more than just structures-it's about creating inspiring, functional, and timeless spaces. With a deep appreciation for design, sustainability, and innovation, our atelier transforms visions into reality. ensuring each project reflects our client's identity and aspirations.
+            We blend creativity with technical expertise, delivering tailored solutions that harmonize aesthetics,
+            functionality, and environmental responsibility.
+            Our process is collaborative, ensuring every detail is meticulously crafted to meet both practical needs and artistic vision.</p>
+    </div>
+    
+</body>
+</html>
